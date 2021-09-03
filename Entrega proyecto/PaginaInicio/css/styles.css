@@ -1,0 +1,87 @@
+header{
+    height: 100px;
+}
+
+
+section{
+    width: 100%;
+    margin: auto;
+    height: 725px;
+    background: url('./imagenes/fondoBooking.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-color: transparent;
+    
+
+}
+
+.container{
+    width: 70%;
+}
+    
+
+h1{
+    margin-bottom: 63px;
+}
+
+#start-date{
+    border: solid;
+}
+
+#end-date{
+    border: solid;
+}
+
+div#booking {
+    border: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.fi{
+    float: left;
+    border: solid;
+    border-color: rgba(58, 40, 4, 0.719);
+}
+
+input#fechaInicio {
+    height: 30px;
+    margin-top: 6px;
+    border-color: rgba(58, 40, 4, 0.719);
+    background-color: rgba(58, 40, 4, 0.719);
+    border: none;
+}
+
+
+.ff {
+    float: left;
+    border: solid;
+    border-color: white;
+    box-sizing: border-box;
+}
+
+input#fechaFinal{
+    height: 30px;
+    margin-top: 6px;
+    border-color: white;
+    background-color: white;
+    border: none;
+}
+}
+
+span {
+    margin-right: 10px;
+    font-weight: bold;
+}*/
