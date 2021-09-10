@@ -7,13 +7,12 @@ section{
     width: 100%;
     margin: auto;
     height: 725px;
-    background: url('./imagenes/fondoBooking.png');
+    background: url('./imagenes/fondoBooking2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top-color: transparent;
-    
-
+    padding: 0;
+   
 }
 
 .container{
@@ -37,6 +36,26 @@ div#booking {
     border: solid;
 }
 
+.calendar {
+    height: 97px;
+}
+
+.row.form-group {
+    height: 83px;
+}
+
+input.form-control {
+    height: 83px;
+}
+
+header{
+    /*background-color:#e4ddda ;*/
+    background-color:#e7e4e0 ;
+}
+
+/*header img{
+    background-color: tomato;
+}*/
 
 
 

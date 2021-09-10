@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>booking</title>
     <link rel="stylesheet" href="./css/styles.css">
 
 </head>
 <body>
     <header>
-        
+        <!-- <img src="./css/imagenes/fondoBooking.png" alt=""> -->
+
     </header>
     <section>
         <div class="container">
@@ -23,16 +24,30 @@
                 
                 
             </div>
-            <div class="calendar">
-                <div class="row">
-                    <div class="col-sm-5" id="start-date">
-                      One of three columns
+            <div class="calendar ">
+                <div class="row form-group">
+                    <div class="col-sm-5 input-group mb-3">
+                        <div class="input-group-prepend">
+                          <button class="btn btn-outline-secondary" type="button" id="button-addon1">
+                            <span class="input-group-addon">
+                                <span class="fa fa-calendar"></span>
+                            </span>
+                          </button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <!--</div>
+                    <div class=" input-group " id="start-date">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">
+                            <span class="fa fa-calendar">Escoge fecha de inicio</span>
+                        </span> -->
+                      
                     </div>
                     <div class="col-sm-5" id="end-date">
-                      One of three columns
+                      Escoge fecha de finalizacion
                     </div>
                     <div class="col-sm-2" id="booking">
-                      One of three columns
+                      AGENDAR
                     </div>
                   </div>
             </div>
