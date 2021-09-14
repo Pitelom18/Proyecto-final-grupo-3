@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 header{
     height: 100px;
 }
@@ -7,7 +13,7 @@ section{
     width: 100%;
     margin: auto;
     height: 725px;
-    background: url('./imagenes/fondoBooking2.png');
+    background: url('./imagenes/imagen-montar-bici1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,11 +26,17 @@ section{
 }
     
 
-h1{
-    margin-bottom: 63px;
+.bici-tour{
+    font-family:'Urbanist', sans-serif;
+    font-weight: bold; 
+    
 }
 
-#start-date{
+.bici-title{
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* #start-date{
     border: solid;
 }
 
@@ -34,29 +46,33 @@ h1{
 
 div#booking {
     border: solid;
-}
+} */
 
-.calendar {
+/* .calendar {
     height: 97px;
-}
+} */
 
-.row.form-group {
+/* .row.form-group {
     height: 83px;
 }
 
 input.form-control {
     height: 83px;
+} */
+
+.ff{
+    float: left;
+}
+.fi{
+    float:left;
 }
 
-header{
-    /*background-color:#e4ddda ;*/
-    background-color:#e7e4e0 ;
+.col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 124px;
 }
-
-/*header img{
-    background-color: tomato;
-}*/
-
 
 
 
